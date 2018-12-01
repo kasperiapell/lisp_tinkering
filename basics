@@ -1,4 +1,5 @@
-(define (square x) (* x x ))
-(define (sum-of-squares x y)
+(define (square x) (* x x ))		; define the square as a function of x
+
+(define (sum-of-squares x y)		; define the sum of squares as a function of x and y
 	(+ (square x) (square y))
 ) 
